@@ -1,20 +1,16 @@
-# Launch Code Template
+# Time Tracking Dashboard
 
-This a project template to develop with React, TypeScript. Jest, Testing Library and TailwindCss.
+Welcome to the Time Tracking Dashboard project! This README provides an overview of the project's concept, objectives, and guidelines for building the dashboard.
 
-## Technologies used in this template
+## Project Concept
+
+The "Time Tracking Dashboard" is a web application designed to help users track and visualize their time-related data. The primary goal is to provide a user-friendly interface for monitoring daily, weekly, and monthly time statistics. Users can easily switch between these different time periods and view the data in an optimal layout depending on their device's screen size. The dashboard offers interactive elements with hover states for enhanced user experience.
 
 ### Dependencies  
 
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/pt-BR/)
-- [Jest Environment Jsdom](https://jestjs.io/docs/next/tutorial-jquery)
-- [Testing-library - jest-dom](https://testing-library.com/docs/ecosystem-jest-dom/)
-- [Testing-library - react](https://testing-library.com/)
-- [Testing-library - user-event](https://testing-library.com/docs/ecosystem-user-event/)
 - [TailwindCss](https://tailwindcss.com/)
-- [Phosphor-icons - React](https://github.com/phosphor-icons/react)
 - [Vite](https://vitejs.dev/)
 
 ## How to execute this project
@@ -25,7 +21,7 @@ This a project template to develop with React, TypeScript. Jest, Testing Library
 
 ```sh
 
-$ git@github.com:LucasAnselmoSilva12345/launch-code-template.git
+$ git@github.com:LucasAnselmoSilva12345/time-tracking-dashboard.git
 
 ```
 
@@ -33,7 +29,7 @@ $ git@github.com:LucasAnselmoSilva12345/launch-code-template.git
 
 ```sh
 
-$ cd launch-code-template
+$ cd time-tracking-dashboard
 
 ```
 
@@ -83,16 +79,4 @@ To execute the project
 
 $ http://localhost:3000/
 
-```
-
-To execute unit or integration tests  
-
-7. Execute this command in your terminal:
-
-```sh
-$ npm test
-
-or
-
-yarn test
 ```
