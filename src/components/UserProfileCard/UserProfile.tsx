@@ -12,28 +12,28 @@ export function UserProfile({
   handleOptionChange,
 }: UserProfileProps) {
   return (
-    <aside className="bg-indigo-900 rounded-xl">
+    <aside className="bg-indigo-900 w-full rounded-xl">
       <UserProfileData />
 
       <div className="p-6">
-        <ul className="flex items-center justify-between">
+        <ul className="flex items-center justify-between text-indigo-500">
           <button
             onClick={() => handleOptionChange('daily')}
-            className={selectedOption === 'daily' ? 'active' : ''}
+            className={selectedOption === 'daily' ? 'text-indigo-100' : ''}
           >
             Daily
           </button>
 
           <button
             onClick={() => handleOptionChange('weekly')}
-            className={selectedOption === 'weekly' ? 'active' : ''}
+            className={selectedOption === 'weekly' ? 'text-indigo-100' : ''}
           >
             Weekly
           </button>
 
           <button
             onClick={() => handleOptionChange('monthly')}
-            className={selectedOption === 'monthly' ? 'active' : ''}
+            className={selectedOption === 'monthly' ? 'text-indigo-100' : ''}
           >
             Monthly
           </button>
