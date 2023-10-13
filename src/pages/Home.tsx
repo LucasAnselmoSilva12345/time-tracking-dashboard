@@ -24,7 +24,7 @@ export function Home() {
   }));
 
   return (
-    <main className="min-h-screen container mx-auto my-0 p-8 flex flex-col items-center justify-center gap-1 lg:flex-row">
+    <main className="min-h-screen container mx-auto my-0 p-8 flex flex-col items-center justify-center gap-1 lg:gap-3 lg:flex-row">
       <UserProfile
         selectedOption={selectedOption}
         handleOptionChange={handleOptionChange}
@@ -33,11 +33,13 @@ export function Home() {
         {selectedData.map((item, index) => (
           <div
             key={index}
-            className=" p-6 space-y-3 rounded-xl bg-indigo-900 duration-150 hover:bg-indigo-800"
+            className=" p-6 space-y-3 rounded-xl bg-indigo-900 duration-150 cursor-pointer hover:opacity-50"
           >
-            <h2 className="font-inter text-xl font-semibold">{item.title}</h2>
-            <div className="flex items-center justify-between">
-              <h3 className="text-3xl">{item.current}hrs</h3>
+            <h2 className="font-inter text-xl lg:text-base font-semibold">
+              {item.title}
+            </h2>
+            <div className="flex items-center justify-between lg:flex-col lg:items-start lg:space-y-3">
+              <h3 className="text-3xl lg:text-7xl">{item.current}hrs</h3>
               <span className="text-sm">Last week - {item.previous}hrs</span>
             </div>
           </div>

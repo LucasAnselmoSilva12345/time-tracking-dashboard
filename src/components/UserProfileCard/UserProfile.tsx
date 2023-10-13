@@ -12,11 +12,11 @@ export function UserProfile({
   handleOptionChange,
 }: UserProfileProps) {
   return (
-    <aside className="bg-indigo-900 w-full rounded-xl">
+    <aside className="bg-indigo-900 w-full rounded-xl lg:w-[25rem]">
       <UserProfileData />
 
       <div className="p-6">
-        <ul className="flex items-center justify-between text-indigo-500">
+        <ul className="flex items-center justify-between lg:flex-col lg:items-start lg:space-y-3 text-indigo-500">
           <button
             onClick={() => handleOptionChange('daily')}
             className={selectedOption === 'daily' ? 'text-indigo-100' : ''}
